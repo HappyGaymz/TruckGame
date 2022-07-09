@@ -240,10 +240,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.36
   m_SuspensionSpring:
-    spring: 400000
-    damper: 8000
+    spring: 50
+    damper: 200
     targetPosition: 0.2
-  m_SuspensionDistance: 0.03
+  m_SuspensionDistance: 0.13
   m_ForceAppPointDistance: 0
   m_Mass: 50
   m_WheelDampingRate: 2
@@ -3190,10 +3190,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.36
   m_SuspensionSpring:
-    spring: 400000
-    damper: 10000
+    spring: 50
+    damper: 200
     targetPosition: 0.2
-  m_SuspensionDistance: 0.02
+  m_SuspensionDistance: 0.13
   m_ForceAppPointDistance: 0
   m_Mass: 50
   m_WheelDampingRate: 2
@@ -3629,10 +3629,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.36
   m_SuspensionSpring:
-    spring: 400000
-    damper: 8000
+    spring: 50
+    damper: 200
     targetPosition: 0.2
-  m_SuspensionDistance: 0.03
+  m_SuspensionDistance: 0.13
   m_ForceAppPointDistance: 0
   m_Mass: 50
   m_WheelDampingRate: 2
@@ -4191,10 +4191,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.36
   m_SuspensionSpring:
-    spring: 400000
-    damper: 10000
+    spring: 50
+    damper: 200
     targetPosition: 0.2
-  m_SuspensionDistance: 0.02
+  m_SuspensionDistance: 0.13
   m_ForceAppPointDistance: 0
   m_Mass: 50
   m_WheelDampingRate: 2
@@ -4449,7 +4449,7 @@ MonoBehaviour:
   wheels:
   - {fileID: 1825458824}
   - {fileID: 70401409}
-  maxAngle: 8
+  maxAngle: 17
 --- !u!1001 &2092908823
 PrefabInstance:
   m_ObjectHideFlags: 0
