@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MotorForceApplier : MonoBehaviour
 {
+    [SerializeField] private float downforce = 50;
     [SerializeField] private float topSpeed;
     [SerializeField] private float torquePower;
     [SerializeField] private List<WheelCollider> wheels;
@@ -21,5 +22,6 @@ public class MotorForceApplier : MonoBehaviour
             wheels.ForEach((w) => w.motorTorque = torquePower);
         else
             wheels.ForEach((w) => w.motorTorque = 0);
+        rb.AddForce(Vector3.down * downforce * rb.velocity.magnitude);
     }
 }
