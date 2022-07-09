@@ -240,7 +240,7 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.36
   m_SuspensionSpring:
-    spring: 15
+    spring: 50
     damper: 50000
     targetPosition: 0.2
   m_SuspensionDistance: 0.1
@@ -258,7 +258,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 1.1
   m_Enabled: 1
 --- !u!1 &116327122
 GameObject:
@@ -3198,7 +3198,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 1.1
   m_Enabled: 1
 --- !u!1001 &1509225131
 PrefabInstance:
@@ -3637,7 +3637,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 1.1
   m_Enabled: 1
 --- !u!1001 &1829825479
 PrefabInstance:
@@ -4194,7 +4194,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 1.1
   m_Enabled: 1
 --- !u!1001 &1959898273
 PrefabInstance:
