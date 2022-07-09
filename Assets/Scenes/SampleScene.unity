@@ -240,10 +240,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.36
   m_SuspensionSpring:
-    spring: 50
-    damper: 200
+    spring: 15
+    damper: 50000
     targetPosition: 0.2
-  m_SuspensionDistance: 0.13
+  m_SuspensionDistance: 0.1
   m_ForceAppPointDistance: 0
   m_Mass: 50
   m_WheelDampingRate: 2
@@ -883,7 +883,7 @@ PrefabInstance:
     - target: {fileID: 3666217641236809548, guid: e4ac09b7359b9b545abe051f79b5e41e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.11
+      value: 0.47
       objectReference: {fileID: 0}
     - target: {fileID: 3666217641236809548, guid: e4ac09b7359b9b545abe051f79b5e41e,
         type: 3}
@@ -929,11 +929,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3849378081598721193, guid: e4ac09b7359b9b545abe051f79b5e41e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4ac09b7359b9b545abe051f79b5e41e, type: 3}
@@ -2342,7 +2337,7 @@ PrefabInstance:
     - target: {fileID: 3666217641236809548, guid: e4ac09b7359b9b545abe051f79b5e41e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.67
+      value: -7.75
       objectReference: {fileID: 0}
     - target: {fileID: 3666217641236809548, guid: e4ac09b7359b9b545abe051f79b5e41e,
         type: 3}
@@ -2388,11 +2383,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3849378081598721193, guid: e4ac09b7359b9b545abe051f79b5e41e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4ac09b7359b9b545abe051f79b5e41e, type: 3}
@@ -3191,9 +3181,9 @@ WheelCollider:
   m_Radius: 0.36
   m_SuspensionSpring:
     spring: 50
-    damper: 200
+    damper: 50000
     targetPosition: 0.2
-  m_SuspensionDistance: 0.13
+  m_SuspensionDistance: 0.1
   m_ForceAppPointDistance: 0
   m_Mass: 50
   m_WheelDampingRate: 2
@@ -3630,9 +3620,9 @@ WheelCollider:
   m_Radius: 0.36
   m_SuspensionSpring:
     spring: 50
-    damper: 200
+    damper: 50000
     targetPosition: 0.2
-  m_SuspensionDistance: 0.13
+  m_SuspensionDistance: 0.1
   m_ForceAppPointDistance: 0
   m_Mass: 50
   m_WheelDampingRate: 2
@@ -4089,7 +4079,7 @@ PrefabInstance:
     - target: {fileID: 3666217641236809548, guid: e4ac09b7359b9b545abe051f79b5e41e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.4513435
+      value: -9.73
       objectReference: {fileID: 0}
     - target: {fileID: 3666217641236809548, guid: e4ac09b7359b9b545abe051f79b5e41e,
         type: 3}
@@ -4099,7 +4089,7 @@ PrefabInstance:
     - target: {fileID: 3666217641236809548, guid: e4ac09b7359b9b545abe051f79b5e41e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 42.94296
+      value: 41.86
       objectReference: {fileID: 0}
     - target: {fileID: 3666217641236809548, guid: e4ac09b7359b9b545abe051f79b5e41e,
         type: 3}
@@ -4135,11 +4125,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3849378081598721193, guid: e4ac09b7359b9b545abe051f79b5e41e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4ac09b7359b9b545abe051f79b5e41e, type: 3}
@@ -4192,9 +4177,9 @@ WheelCollider:
   m_Radius: 0.36
   m_SuspensionSpring:
     spring: 50
-    damper: 200
+    damper: 50000
     targetPosition: 0.2
-  m_SuspensionDistance: 0.13
+  m_SuspensionDistance: 0.1
   m_ForceAppPointDistance: 0
   m_Mass: 50
   m_WheelDampingRate: 2
@@ -4231,7 +4216,7 @@ PrefabInstance:
     - target: {fileID: 3666217641236809548, guid: e4ac09b7359b9b545abe051f79b5e41e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.94271
+      value: -17.91
       objectReference: {fileID: 0}
     - target: {fileID: 3666217641236809548, guid: e4ac09b7359b9b545abe051f79b5e41e,
         type: 3}
@@ -4241,7 +4226,7 @@ PrefabInstance:
     - target: {fileID: 3666217641236809548, guid: e4ac09b7359b9b545abe051f79b5e41e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37.04614
+      value: 35.73
       objectReference: {fileID: 0}
     - target: {fileID: 3666217641236809548, guid: e4ac09b7359b9b545abe051f79b5e41e,
         type: 3}
@@ -4277,11 +4262,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3849378081598721193, guid: e4ac09b7359b9b545abe051f79b5e41e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4ac09b7359b9b545abe051f79b5e41e, type: 3}
@@ -4430,6 +4410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28241ea74e038e747b7f1e35fd4f7f1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topSpeed: 50
   torquePower: 6000
   wheels:
   - {fileID: 1933391382}
