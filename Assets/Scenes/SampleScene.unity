@@ -4410,6 +4410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28241ea74e038e747b7f1e35fd4f7f1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  downforce: 10000
   topSpeed: 50
   torquePower: 6000
   wheels:
