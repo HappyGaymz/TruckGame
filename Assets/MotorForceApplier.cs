@@ -7,6 +7,7 @@ public class MotorForceApplier : MonoBehaviour
     [SerializeField] private float downforce = 50;
     [SerializeField] private float topSpeed;
     [SerializeField] private float torquePower;
+    [SerializeField] private float brakeSpeedMultiplier = 2;
     [SerializeField] private float brakePower;
     [SerializeField] private List<WheelCollider> wheels;
     Rigidbody rb;
@@ -16,7 +17,7 @@ public class MotorForceApplier : MonoBehaviour
     {
         trueTopSpeed = topSpeed/3.6f;
         trueTopSpeed = trueTopSpeed * trueTopSpeed;
-        brakeTopSpeed = trueTopSpeed * 1.5f;
+        brakeTopSpeed = trueTopSpeed * brakeSpeedMultiplier;
         rb = GetComponent<Rigidbody>();
     }
     private void FixedUpdate()
