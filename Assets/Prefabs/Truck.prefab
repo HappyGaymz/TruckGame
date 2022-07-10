@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 3041988028411445065}
   - component: {fileID: 3041988028411445063}
   - component: {fileID: 3041988028411445060}
+  - component: {fileID: 8225148147994589905}
   m_Layer: 0
   m_Name: Truck
   m_TagString: Untagged
@@ -223,6 +224,7 @@ Transform:
   m_Children:
   - {fileID: 3041988029838057572}
   - {fileID: 3041988029667940395}
+  - {fileID: 6121863676794605714}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -276,6 +278,22 @@ MonoBehaviour:
   - {fileID: 3041988028684878726}
   - {fileID: 3041988029347312783}
   maxAngle: 17
+--- !u!114 &8225148147994589905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3041988028411445064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf66ec62af645b488d3449076904b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boxPrefab: {fileID: 3666217641236809546, guid: e4ac09b7359b9b545abe051f79b5e41e,
+    type: 3}
+  boxSpawnPoint: {fileID: 6121863676794605714}
+  delayBetween: 0.5
 --- !u!1 &3041988028454595458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,6 +1024,37 @@ Transform:
   - {fileID: 3296061548997912855}
   m_Father: {fileID: 3041988028411445062}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5810874601699303399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6121863676794605714}
+  m_Layer: 0
+  m_Name: BoxSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6121863676794605714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5810874601699303399}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.882, z: 0.454}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3041988028411445062}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3041988027833023397
 PrefabInstance:
