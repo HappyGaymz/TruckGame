@@ -259,6 +259,7 @@ MonoBehaviour:
   downforce: 10000
   topSpeed: 20
   torquePower: 12000
+  brakePower: 36000
   wheels:
   - {fileID: 3041988029347312783}
   - {fileID: 3041988028684878726}
