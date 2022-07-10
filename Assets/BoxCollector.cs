@@ -18,6 +18,9 @@ public class BoxCollector : MonoBehaviour
     {
         if(other.transform.parent.TryGetComponent(out PickUpBox pickUp))
         {
+            if (pickUp.PickedUp)
+                return;
+            pickUp.PickedUp = true;
             StartCoroutine(SpawnBoxes(pickUp.Count));
             Destroy(pickUp.gameObject);
         }
