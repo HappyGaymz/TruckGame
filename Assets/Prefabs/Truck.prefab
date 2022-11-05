@@ -257,8 +257,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   downforce: 10000
-  topSpeed: 20
+  topSpeed: 80
   torquePower: 12000
+  brakeSpeedMultiplier: 2
   brakePower: 36000
   wheels:
   - {fileID: 3041988029347312783}
